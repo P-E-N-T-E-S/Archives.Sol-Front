@@ -121,7 +121,7 @@ function App() {
           path="/login"
           element={
             <>
-              <PageTitle title="Signin | TailAdmin - Tailwind CSS Admin Dashboard Template" />
+              <PageTitle title="Fazer login archives.sol" />
               <SignIn />
             </>
           }

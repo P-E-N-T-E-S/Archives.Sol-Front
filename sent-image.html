@@ -1,0 +1,71 @@
+<div id="result">
+</div>
+
+<div id="pageContent">
+    <div class="page-heading">
+        <div class="page-title">
+            <div class="row">
+                <div class="col-12 col-md-6 order-md-1 order-last">
+                    <h3>Envio de imagens</h3>
+                    <p class="text-subtitle text-muted">
+                        Selecione as imagens e suas respectivas tags para enviar o dataset.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section id="multiple-column-form">
+            <div class="row match-height">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h4 class="card-title">Enviar dataset</h4>
+                                </div>
+                                <div class="col-6">
+                                    <div class="col-12 d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary me-1 mb-1" control-id="ControlID-11">
+                                            Enviar
+                                        </button>
+                                        <button type="reset" class="btn btn-light-secondary me-1 mb-1" control-id="ControlID-12">
+                                            Voltar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-body">
+                                <form class="form" data-parsley-validate="" novalidate="">
+                                    <div class="row">
+                                        <div class="col-md-6 col-6">
+                                            <div class="form-group mandatory">
+                                                <label for="first-name-column" class="form-label">Imagens</label>
+                                                <input class="form-control" type="file" id="formFileMultiple" multiple="" accept=".zip" control-id="ControlID-12" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mandatory">
+                                                <label class="form-label">Tags</label>
+                                                <select class="select2 form-select multiple-remove" multiple="multiple">
+                                                    <option>Óculos</option>
+                                                    <option>pessoas</option>
+                                                    <option>teclado</option>
+                                                    <option>Mouse</option>
+                                                    <option>Garrafa</option>
+                                                    <option>Xícara</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="/assets/extensions/jquery/jquery.min.js"></script>
+<script src="./assets/static/js/loadLayout.js"></script>

@@ -3,7 +3,7 @@ function loadPageLayout() {
     if (status == 'success') {
       const innerHmlForAddInPageContent = $("#pageContent").html();
 
-      $("#renderPageContent").html(innerHmlForAddInPageContent);
+      $("#main-content").html(innerHmlForAddInPageContent);
       $("#pageContent").html(' ');
     }
   });

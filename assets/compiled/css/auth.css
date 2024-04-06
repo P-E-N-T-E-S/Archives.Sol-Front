@@ -27,6 +27,10 @@ body {
     color: #a8aebb;
 }
 
+#auth #auth-left .auth-logo {
+    margin-bottom: 1rem;
+}
+
 #auth #auth-left .auth-logo img {
     height: 2rem;
 }

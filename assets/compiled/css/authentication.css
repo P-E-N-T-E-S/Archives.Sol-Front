@@ -3,3 +3,24 @@
     text-align: center;
     margin-top: 2rem;
 }
+
+.auth-logo {
+    text-align: center;
+}
+
+.auth-box {
+    max-width: 80vh;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#auth-right img {
+    max-width: 100vh;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

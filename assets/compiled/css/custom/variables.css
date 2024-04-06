@@ -45,6 +45,9 @@
     --grey: #94B0B7;
     --grey-primary-light: #C2C8C5;
     --grey-secundary-light: #F7F7F7;
+    --bold-poppins: 'Poppins Bold', sans-serif;
+    --not-bold-poppins: 'Poppins', sans-serif;
+    --body-lora: 'Lora', sans-serif;
 
     /* Font Types */
     
@@ -52,87 +55,87 @@
 
 /* Font Styles */
 
-.header-xg {
-    font-family: var(--headers-font);
+.poppins-bold-xl {
+    font-family: var(--bold-poppins);
     font-size: 35px;
 }
 
-.header-g {
-    font-family: var(--headers-font);
+.poppins-bold-l {
+    font-family: var(--bold-poppins);
     font-size: 30px;
 }
 
-.header-m {
-    font-family: var(--headers-font);
+.poppins-bold-m {
+    font-family: var(--bold-poppins);
     font-size: 25px;
 }
 
-.header-s {
-    font-family: var(--headers-font);
+.poppins-bold-s {
+    font-family: var(--bold-poppins);
     font-size: 20px;
 }
 
-.header-xs {
-    font-family: var(--headers-font);
+.poppins-bold-xs {
+    font-family: var(--bold-poppins);
     font-size: 15px;
 }
 
-.header-xxs {
-    font-family: var(--headers-font);
+.poppins-bold-xxs {
+    font-family: var(--bold-poppins);
     font-size: 10px;
 }
 
-.header-not-bold-xg {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-xg {
+    font-family: var(--not-bold-poppins);
     font-size: 35px;
 }
 
-.header-not-bold-g {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-g {
+    font-family: var(--not-bold-poppins);
     font-size: 30px;
 }
 
-.header-not-bold-m {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-m {
+    font-family: var(--not-bold-poppins);
     font-size: 25px;
 }
 
-.header-not-bold-s {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-s {
+    font-family: var(--not-bold-poppins);
     font-size: 20px;
 }
 
-.header-not-bold-xs {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-xs {
+    font-family: var(--not-bold-poppins);
     font-size: 15px;
 }
 
-.header-not-bold-xxs {
-    font-family: var(--header-not-bold-font);
+.not-bold-poppins-xxs {
+    font-family: var(--not-bold-poppins);
     font-size: 13px;
 }
 
 .body-xg {
-    font-family: var(--body-font);
+    font-family: var(--body-lora);
     font-size: 26px;
 }
 
 .body-g {
-    font-family: var(--body-font);
+    font-family: var(--body-lora);
     font-size: 22px;
 }
 
 .body-m {
-    font-family: var(--body-font);
+    font-family: var(--body-lora);
     font-size: 20px;
 }
 
 .body-s {
-    font-family: var(--body-font);
+    font-family: var(--body-lora);
     font-size: 16px;
 }
 
 .body-xs {
-    font-family: var(--body-font);
+    font-family: var(--body-lora);
     font-size: 10px;
 }

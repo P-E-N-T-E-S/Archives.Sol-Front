@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('../fonts/Poppins-Bold.ttf');
+    /* Outras propriedades opcionais */
+    font-weight: bold;
+    font-style: normal;
+}
+/*TODO update the ../../wwwroot for ~ after development the views*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf');
+    /* Outras propriedades opcionais */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Regular.ttf');
+    /* Outras propriedades opcionais */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/Lora-Bold.ttf');
+    /* Outras propriedades opcionais */
+    font-weight: bold;
+    font-style: normal;
+}
+
+:root {
+
+    /* Colors */
+    --white: #F7F8FA;
+    --black: #000000;
+    --blue-secundary-dark: #071E55;
+    --blue-primary-dark: #143074;
+    --blue: #2046A1;
+    --blue-primary-light: #3963C8;
+    --blue-secundary-light: #3868D9;
+    --grey-secundary-dark: #4A707A;
+    --grey-primary-dark: #7697A0;
+    --grey: #94B0B7;
+    --grey-primary-light: #C2C8C5;
+    --grey-secundary-light: #F7F7F7;
+
+    /* Font Types */
+    
+}
+
+/* Font Styles */
+
+.header-xg {
+    font-family: var(--headers-font);
+    font-size: 35px;
+}
+
+.header-g {
+    font-family: var(--headers-font);
+    font-size: 30px;
+}
+
+.header-m {
+    font-family: var(--headers-font);
+    font-size: 25px;
+}
+
+.header-s {
+    font-family: var(--headers-font);
+    font-size: 20px;
+}
+
+.header-xs {
+    font-family: var(--headers-font);
+    font-size: 15px;
+}
+
+.header-xxs {
+    font-family: var(--headers-font);
+    font-size: 10px;
+}
+
+.header-not-bold-xg {
+    font-family: var(--header-not-bold-font);
+    font-size: 35px;
+}
+
+.header-not-bold-g {
+    font-family: var(--header-not-bold-font);
+    font-size: 30px;
+}
+
+.header-not-bold-m {
+    font-family: var(--header-not-bold-font);
+    font-size: 25px;
+}
+
+.header-not-bold-s {
+    font-family: var(--header-not-bold-font);
+    font-size: 20px;
+}
+
+.header-not-bold-xs {
+    font-family: var(--header-not-bold-font);
+    font-size: 15px;
+}
+
+.header-not-bold-xxs {
+    font-family: var(--header-not-bold-font);
+    font-size: 13px;
+}
+
+.body-xg {
+    font-family: var(--body-font);
+    font-size: 26px;
+}
+
+.body-g {
+    font-family: var(--body-font);
+    font-size: 22px;
+}
+
+.body-m {
+    font-family: var(--body-font);
+    font-size: 20px;
+}
+
+.body-s {
+    font-family: var(--body-font);
+    font-size: 16px;
+}
+
+.body-xs {
+    font-family: var(--body-font);
+    font-size: 10px;
+}

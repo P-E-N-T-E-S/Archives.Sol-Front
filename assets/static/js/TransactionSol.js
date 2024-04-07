@@ -70,4 +70,5 @@ function signInTransactionAndSendMoney(destPubkeyStr, quantity) {
 
 function redirectToIndex() {
   window.location.href = "index.html";
+  localStorage.setItem("sentSuccessFunction","true");
 }

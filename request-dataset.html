@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="col-6">
                                     <div class="col-12 d-flex justify-content-end">
-                                        <button type="submit" class="btn btn-primary me-1 mb-1" control-id="ControlID-11">
+                                        <button onclick="requestDatasetsAndTransactionSol()" class="btn btn-primary me-1 mb-1" control-id="ControlID-11">
                                             Solicitar
                                         </button>
                                         <button type="reset" class="btn btn-light-secondary me-1 mb-1" control-id="ControlID-12">
@@ -63,3 +63,12 @@
 </div>
 <script src="/assets/extensions/jquery/jquery.min.js"></script>
 <script src="./assets/static/js/loadLayout.js"></script>
+<script src="https://unpkg.com/@solana/web3.js@v1.33.0/lib/index.iife.js"></script>
+<script src="assets/static/js/TransactionSol.js"></script>
+
+
+<script>
+    var wallet;
+    const lamports_per_sol = solanaWeb3.LAMPORTS_PER_SOL;
+    connectWallet();
+</script>

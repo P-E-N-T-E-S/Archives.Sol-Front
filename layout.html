@@ -126,12 +126,17 @@
     <script src="assets/extensions/@fortawesome/fontawesome-free/js/all.min.js"></script>
     <script src="./assets/extensions/choices.js/public/assets/scripts/choices.js"></script>
     <script src="./assets/static/js/pages/form-element-select.js"></script>
+    <script src="./assets/static/js/pages/"></script>
     <script src="assets/extensions/select2/js/select2.full.min.js"></script>
+    <script src="assets/extensions/select2/js/i18n/pt-BR.js"></script>
     <script src="assets/extensions/chart.js/chart.js"></script>
     <script src="assets/static/js/pages/dashboard.js"></script>
     <script>
         $(function () {
-            $(".select2").select2();
+            $(".select2").select2({
+                "language": "pt-BR"
+
+            });
         });
     </script>
 
